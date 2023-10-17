@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Unit.css">
+  <script src="Units.js"></script>
+  <title>convertUnits</title>
+</head>
+<body>
+  <div class="converter">
+  <h1>Length Converter&#128207;</h1>
+  <h3>From Unit</h3>
+  <input type="number" id="input" step="1" placeholder="Number">
+  <select id="fromUnit" class="form-select" aria-label="From Unit">
+    <option value="meter">Meter</option>
+    <option value="centimeter">Centimeter</option>
+    <option value="inch">Inch</option>
+    <option value="kilometer">Kilometer</option>
+  </select>
+  <h3>To Unit</h3>
+    <input type="text" id="result">
+    <select id="toUnit" class="form-select" aria-label="To Unit">
+      <option value="meter">Meter</option>
+      <option value="centimeter">Centimeter</option>
+      <option value="inch">Inch</option>
+      <option value="kilometer">Kilometer</option>
+    </select>
+    <br>
+    <button onclick="convertUnits()">Convert</button>
+  </div>
+  <hr>
+  <img src="https://xaktly.com/Images/MetricSystem/MeterMultiplesTable.png" class="img-thumbnail" alt="...">
+</body>
+</html>
+
+
