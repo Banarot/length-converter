@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+body {
+  background-color: rgb(165, 247, 247);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+}
+.converter {
+  position: relative;
+  max-width: 400px;
+  background-color: transparent;
+  border: 2px solid rgb(252, 0, 0);
+  border-radius: 20px;
+  backdrop-filter: blur(55px);
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+}
